@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dabushs-shawarma-reviews%20/static/css/main.16ddc9ca.css",
+    "main.js": "/dabushs-shawarma-reviews%20/static/js/main.14c30ab7.js",
+    "index.html": "/dabushs-shawarma-reviews%20/index.html",
+    "main.16ddc9ca.css.map": "/dabushs-shawarma-reviews%20/static/css/main.16ddc9ca.css.map",
+    "main.14c30ab7.js.map": "/dabushs-shawarma-reviews%20/static/js/main.14c30ab7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16ddc9ca.css",
+    "static/js/main.14c30ab7.js"
+  ]
+}
