@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ReviewCard from "./components/ReviewCard";
 import AddReviewForm from "./components/AddReviewForm";
+import logo from './logo.jpg'
 import "./style/App.css";
 
 // Default initial data
@@ -44,7 +45,7 @@ function App() {
     <div className="App">
       <header className="app-header">
         <div className="logo-container">
-          <img src="/logo.jpg" alt="Shawarma Logo" className="shawarma-icon" />
+          <img src={logo} alt="Shawarma Logo" className="shawarma-icon" />
           <h1 className="app-title">Dabush's Shawarma Reviews</h1>
         </div>
       </header>
