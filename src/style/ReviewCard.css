@@ -1,0 +1,45 @@
+/* src/components/ReviewCard.css */
+
+.review-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s, box-shadow 0.25s;
+    border: 2px solid #fff5db; /* subtle border */
+  }
+  
+  .review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  }
+  
+  .place-name {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: #c05621; /* A warm brownish color */
+  }
+  
+  .location,
+  .date {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.2rem 0;
+  }
+  
+  .score-section {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .overall-score {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #b91c1c; /* A bold red highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  

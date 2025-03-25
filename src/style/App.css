@@ -1,0 +1,84 @@
+/* src/App.css */
+
+/* Use the fonts we imported in index.html */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body + Overall App Setup */
+.App {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom right, #f7dfa9, #fcd58d);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER STYLES */
+.app-header {
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  background: #f59e0b; /* a warm gold hue */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  animation: floatIn 1.5s ease forwards;
+}
+
+/* Example shawarma icon styling */
+.shawarma-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transform: rotate(-15deg) scale(0.9);
+  animation: wiggle 2s infinite ease-in-out;
+}
+
+/* Fancy text styling */
+.app-title {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* REVIEWS CONTAINER */
+.reviews-container {
+  width: 95%;
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Keyframe Animations */
+@keyframes floatIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-15deg) scale(0.9);
+  }
+  50% {
+    transform: rotate(15deg) scale(1);
+  }
+}
