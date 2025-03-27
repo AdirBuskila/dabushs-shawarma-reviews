@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dabushs-shawarma-reviews/static/css/main.7480862a.css",
-    "main.js": "/dabushs-shawarma-reviews/static/js/main.f2406fef.js",
+    "main.css": "/dabushs-shawarma-reviews/static/css/main.2d7ca002.css",
+    "main.js": "/dabushs-shawarma-reviews/static/js/main.23672d18.js",
     "static/media/logo.jpg": "/dabushs-shawarma-reviews/static/media/logo.28293a8af27d84209a13.jpg",
     "index.html": "/dabushs-shawarma-reviews/index.html",
-    "main.7480862a.css.map": "/dabushs-shawarma-reviews/static/css/main.7480862a.css.map",
-    "main.f2406fef.js.map": "/dabushs-shawarma-reviews/static/js/main.f2406fef.js.map"
+    "main.2d7ca002.css.map": "/dabushs-shawarma-reviews/static/css/main.2d7ca002.css.map",
+    "main.23672d18.js.map": "/dabushs-shawarma-reviews/static/js/main.23672d18.js.map"
   },
   "entrypoints": [
-    "static/css/main.7480862a.css",
-    "static/js/main.f2406fef.js"
+    "static/css/main.2d7ca002.css",
+    "static/js/main.23672d18.js"
   ]
 }
