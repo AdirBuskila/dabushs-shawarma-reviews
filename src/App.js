@@ -2,39 +2,14 @@
 import React, { useState } from "react";
 import ReviewCard from "./components/ReviewCard";
 import AddReviewForm from "./components/AddReviewForm";
+import reviewsData from "./data/reviewsData";
 import logo from './logo.jpg'
 import "./style/App.css";
 
 // Default initial data
-const initialReviews = [
-  {
-    id: 1,
-    date: "2025-04-01",
-    placeName: "הנכד של אברהם",
-    location: "ראשון לציון, Israel",
-    scores: {
-      taste: 9,
-      cleanliness: 10,
-      servingSpeed: 9,
-      saladVariety: 10,
-    },
-  },
-  {
-    id: 2,
-    date: "2025-04-02",
-    placeName: "Nobi",
-    location: "Ashkelon, Israel",
-    scores: {
-      taste: 9,
-      cleanliness: 8,
-      servingSpeed: 9,
-      saladVariety: 10,
-    },
-  },
-];
 
 function App() {
-  const [reviews, setReviews] = useState(initialReviews);
+  const [reviews, setReviews] = useState(reviewsData);
 
   // A callback function to add a new review
   const handleAddReview = (newReview) => {
@@ -60,6 +35,8 @@ function App() {
             date={review.date}
             placeName={review.placeName}
             location={review.location}
+            links={review.links}
+            phone={review.phone}
             scores={review.scores}
           />
         ))}
