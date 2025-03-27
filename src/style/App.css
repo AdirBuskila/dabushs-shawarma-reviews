@@ -23,7 +23,7 @@
   position: relative;
   text-align: center;
   padding: 2rem;
-  background: #f59e0b; /* a warm gold hue */
+  background: #0bf5ed; /* a warm gold hue */
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -66,7 +66,7 @@
 @keyframes floatIn {
   0% {
     opacity: 0;
-    transform: translateY(-40px);
+    transform: translateY(-80px);
   }
   100% {
     opacity: 1;
